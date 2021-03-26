@@ -1,0 +1,78 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model AppointmentListViewModel
+
+@*Display the timeslot and groupname for the appointment list.*@
+
+<div class="container">
+    <h3>Schedule</h3>
+
+    <div class="row">
+        <div class="card card-outline-primary m-1 p-1 shadow-sm fixed-width-item">
+            <h5>Monday</h5>
+            @foreach (var x in Model.Monday)
+            {
+                <span class="badge badge-primary">@x.TimeSlot @x.GroupName</span>
+                <br />
+            }
+        </div>
+        <div class="card card-outline-primary m-1 p-1 shadow-sm fixed-width-item">
+            <h5>Tuesday</h5>
+
+            @foreach (var x in Model.Tuesday)
+            {
+                <span class="badge badge-primary">@x.TimeSlot @x.GroupName</span>
+                <br />
+            }
+        </div>
+        <div class="card card-outline-primary m-1 p-1 shadow-sm fixed-width-item">
+            <h5>Wednesday</h5>
+
+            @foreach (var x in Model.Wednesday)
+            {
+                <span class="badge badge-primary">@x.TimeSlot @x.GroupName</span>
+                <br />
+            }
+        </div>
+        <div class="card card-outline-primary m-1 p-1 shadow-sm fixed-width-item">
+            <h5>Thursday</h5>
+
+            @foreach (var x in Model.Thursday)
+            {
+                <span class="badge badge-primary">@x.TimeSlot @x.GroupName</span>
+                <br />
+            }
+        </div>
+        <div class="card card-outline-primary m-1 p-1 shadow-sm fixed-width-item">
+            <h5>Friday</h5>
+
+            @foreach (var x in Model.Friday)
+            {
+                <span class="badge badge-primary">@x.TimeSlot @x.GroupName</span>
+                <br />
+            }
+        </div>
+        <div class="card card-outline-primary m-1 p-1 shadow-sm fixed-width-item">
+            <h5>Saturday</h5>
+
+            @foreach (var x in Model.Saturday)
+            {
+                <span class="badge badge-primary">@x.TimeSlot @x.GroupName</span>
+                <br />
+            }
+        </div>
+        <div class="card card-outline-primary m-1 p-1 shadow-sm fixed-width-item">
+            <h5>Sunday</h5>
+
+            @foreach (var x in Model.Sunday)
+            {
+                <span class="badge badge-primary">@x.TimeSlot @x.GroupName</span>
+                <br />
+            }
+        </div>
+    </div>
+</div>

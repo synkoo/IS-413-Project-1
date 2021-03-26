@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{363C36A4-8BC2-43B7-8DEE-45EE9AE0E630}|Default">
+  <MonoDevelop.Ide.ItemProperties.TempleTourScheduler PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TempleTourScheduler/Models/SeedData.cs">
+    <Files>
+      <File FileName="TempleTourScheduler/wwwroot/css/site.css" IsPinned="True" />
+      <File FileName="TempleTourScheduler/appsettings.json" />
+      <File FileName="TempleTourScheduler/Startup.cs" />
+      <File FileName="TempleTourScheduler/Models/Appointment.cs" />
+      <File FileName="TempleTourScheduler/Models/TimeBlock.cs" />
+      <File FileName="TempleTourScheduler/Models/TempleTourDbContext.cs" />
+      <File FileName="TempleTourScheduler/Views/Shared/_Layout.cshtml" />
+      <File FileName="TempleTourScheduler/Views/Home/Index.cshtml" />
+      <File FileName="TempleTourScheduler/Controllers/HomeController.cs" />
+      <File FileName="TempleTourScheduler/Program.cs" />
+      <File FileName="TempleTourScheduler/Models/SeedData.cs" />
+      <File FileName="TempleTourScheduler/Views/Home/AvailableTimes.cshtml" />
+      <File FileName="TempleTourScheduler/Views/Home/SignUpForm.cshtml" />
+      <File FileName="TempleTourScheduler/Views/Home/AppointmentList.cshtml" />
+      <File FileName="TempleTourScheduler/Models/ErrorViewModel.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TempleTourScheduler" expanded="True">
+            <Node name="TempleTourScheduler" expanded="True" selected="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
